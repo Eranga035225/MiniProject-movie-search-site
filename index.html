@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  
+</head>
+<body>
+<div class="container">
+  <h1>🎬 Movie Search</h1>
+  <div class="search-bar">
+    <input type="text" id="movieTag" placeholder="Search for a movie..." autocomplete="off">
+    <button id="searchButton" onclick="search()">Search</button>
+  </div>
+
+  <div id="error" class="error"></div>
+
+
+  <div class="movie-card" id="movieInfo" style="display:none;">
+    <img id="poster" src="" alt="Movie Poster">
+    <h2 id="title"></h2>
+    <p id="plot"></p>
+    <p><strong>Rating:</strong> <span id="rating"></span></p>
+    <p><strong>Year:</strong> <span id="year"></strong></p>
+    <p><strong>Released:</strong> <span id="released"></span></p>
+    <p><strong>Runtime:</strong> <span id="runtime"></span></p>
+    <p><strong>Genre:</strong> <span id="genre"></span></p>
+    <p><strong>Director:</strong> <span id="director"></span></p>
+    <p><strong>Actors:</strong> <span id="actors"></span></p>
+    <p><strong>Language:</strong> <span id="language"></span></p>
+    <p><strong>Country:</strong> <span id="country"></span></p>
+    <p><strong>Awards:</strong> <span id="awards"></span></p>
+    <p><strong>Box Office:</strong> <span id="boxoffice"></span></p>
+    <p><strong>Website:</strong> <span id="website"></span></p>
+</div>
+</body>
+</html>
